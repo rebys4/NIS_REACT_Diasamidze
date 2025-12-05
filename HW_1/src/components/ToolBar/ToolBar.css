@@ -1,0 +1,49 @@
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    background: #2a2a2a;
+    border-radius: 12px;
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.toolbar__filters {
+    display: flex;
+    gap: 8px;
+}
+
+.toolbar__filters button,
+.toolbar__viewmode button {
+    background: #3a3a3a;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.toolbar__filters button.active {
+    background: #ffd64d;
+    border-color: #ffd64d;
+    color: #000;
+    font-weight: 600;
+}
+
+.toolbar__search input {
+    background: #000;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    min-width: 220px;
+    margin-right: 80px;
+}
+
+.toolbar__viewmode {
+    display: flex;
+}
