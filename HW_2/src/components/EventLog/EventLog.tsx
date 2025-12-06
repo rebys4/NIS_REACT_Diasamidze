@@ -23,7 +23,6 @@ export const EventLog: React.FC = () => {
 
     return (
         <>
-            {/* показываем кнопку только когда дровер закрыт */}
             {!open && (
                 <IconButton
                     onClick={toggleOpen}

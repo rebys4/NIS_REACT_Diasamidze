@@ -6,9 +6,18 @@ const ENERGY_TICK_INTERVAL_MS = 5000;
 const ENERGY_STEP = 5;
 
 const getMoodByEnergy = (energy: number): Mood => {
-    if (energy <= 0) return "offline";
-    if (energy <= 20) return "sad";
-    if (energy <= 60) return "neutral";
+    if (energy <= 0) {
+        return "offline";
+    }
+    
+    if (energy <= 20) {
+        return "sad";
+    }
+
+    if (energy <= 60) {
+        return "neutral";
+    }
+
     return "happy";
 };
 

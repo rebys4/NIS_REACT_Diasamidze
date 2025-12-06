@@ -1,5 +1,4 @@
 import type React from "react";
-import "./App.css";
 import { EventLog } from "./components/EventLog/EventLog";
 import { Dashboard } from "./pages/Dashboard";
 
