@@ -1,0 +1,84 @@
+.card {
+    background: #0b1120;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #e5e7eb;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.7);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 2px solid #22c55e;
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.species {
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    min-width: 0; // чтобы не раздувало карточку
+}
+
+.statLabel {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.statValue {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f9fafb;
+}
+
+.energyBar {
+    height: 6px;
+    border-radius: 999px;
+    background: #111827;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.energyFill {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}

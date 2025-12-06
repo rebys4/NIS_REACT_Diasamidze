@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Glitchy Cat",
+        "species": "Cyber Cat",
+        "mood": "happy",
+        "energy": 90,
+        "level": 3,
+        "avatar": "https://www.placecats.com/neo/300/200"
+    },
+    {
+        "id": "2",
+        "name": "Neon Doge",
+        "species": "Cyber Dog",
+        "mood": "neutral",
+        "energy": 60,
+        "level": 2,
+        "avatar": "https://placedog.net/200/200"
+    },
+    {
+        "id": "3",
+        "name": "Quantum Bun",
+        "species": "Cyber Bunny",
+        "mood": "sad",
+        "energy": 25,
+        "level": 1,
+        "avatar": "https://picsum.photos/seed/bunny/200/200"
+    }
+]
