@@ -1,0 +1,60 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "empty": "No data",
+    "save": "Save",
+    "logout": "Logout"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "title": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Login",
+    "registerTitle": "Registration",
+    "registerStub": "Registration is a UI stub for this API.",
+    "usernameRequired": "Username is required",
+    "passwordRequired": "Password is required",
+    "invalid": "Invalid credentials"
+  },
+  "dashboard": {
+    "title": "Admin Dashboard",
+    "subtitle": "Manage products, profile and app settings"
+  },
+  "products": {
+    "title": "Products",
+    "search": "Search by title",
+    "searchButton": "Search",
+    "details": "Open",
+    "category": "Category",
+    "price": "Price",
+    "rating": "Rating",
+    "noProducts": "No products found",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "pageSize": "Catalog page size",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "errors": {
+    "notFound": "Page not found"
+  }
+}

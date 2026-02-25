@@ -1,0 +1,60 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "empty": "Нет данных",
+    "save": "Сохранить",
+    "logout": "Выйти"
+  },
+  "nav": {
+    "dashboard": "Дашборд",
+    "products": "Продукты",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выход"
+  },
+  "auth": {
+    "title": "Вход",
+    "username": "Логин",
+    "password": "Пароль",
+    "submit": "Войти",
+    "registerTitle": "Регистрация",
+    "registerStub": "Регистрация реализована как UI-заглушка.",
+    "usernameRequired": "Введите логин",
+    "passwordRequired": "Введите пароль",
+    "invalid": "Неверные учетные данные"
+  },
+  "dashboard": {
+    "title": "Админ-панель",
+    "subtitle": "Управляйте продуктами, профилем и настройками"
+  },
+  "products": {
+    "title": "Продукты",
+    "search": "Поиск по названию",
+    "searchButton": "Найти",
+    "details": "Открыть",
+    "category": "Категория",
+    "price": "Цена",
+    "rating": "Рейтинг",
+    "noProducts": "Продукты не найдены",
+    "prev": "Назад",
+    "next": "Вперед",
+    "page": "Страница"
+  },
+  "profile": {
+    "title": "Профиль",
+    "name": "Имя",
+    "email": "Email"
+  },
+  "settings": {
+    "title": "Настройки",
+    "language": "Язык",
+    "theme": "Тема",
+    "pageSize": "Размер страницы каталога",
+    "light": "Светлая",
+    "dark": "Тёмная"
+  },
+  "errors": {
+    "notFound": "Страница не найдена"
+  }
+}
